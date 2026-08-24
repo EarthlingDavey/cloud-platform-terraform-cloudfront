@@ -47,7 +47,7 @@ variable "enable_ordered_cache_behavior" {
 
 variable "default_cache_behavior" {
   type        = any
-  description = "Default cache behaviour. Optional: allowed_methods, cached_methods, compress, default_ttl, max_ttl, min_ttl, cache_policy_id, response_headers_policy_id"
+  description = "Default cache behaviour"
   default     = {}
 }
 
@@ -59,7 +59,7 @@ variable "ordered_cache_behavior" {
 
 variable "geo_restriction" {
   type        = any
-  description = "Geographical restrictions. Optional: restriction_type, locations"
+  description = "Geographical restrictions"
   default     = {}
 }
 
